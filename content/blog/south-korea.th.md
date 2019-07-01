@@ -4,7 +4,7 @@ date: 2019-06-24T17:33:56+07:00
 draft: false
 type: post
 image: images/blog/Cover l South Korea 1.jpg
-author: Worananya Yasantitip
+author: Worananya
 tags: ["Travel", "Aboard"]
 ---
 

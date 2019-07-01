@@ -4,7 +4,7 @@ date: 2019-06-24T17:08:48+07:00
 draft: false
 type: post
 image: images/blog/Cover l Danang-Bana Hills 1.jpg
-author: Worananya Yasantitip
+author: Worananya
 tags: ["Travel", "Aboard"]
 ---
 
