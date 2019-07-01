@@ -1,0 +1,41 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.home.purpose }}
+{{ "<!-- OUR PURPOSE START -->" | safeHTML }}
+    <section class="p-b-65 p-t-55 bg-warning-light full-height xs-full-width wow fadeInDown">
+      <div class="container full-height">
+        <div class="row full-height">
+          <div class="col-sm-5 full-height ">
+            {{ "<!-- BEGIN SLIDER -->" | safeHTML }}
+            <div class="swiper-container" id="inner-conent-slider">
+              <div class="top-left z-index-10 xs-relative xs-m-b-20">
+                <img src="{{ .icon | absURL }}" alt="" width="60">
+                <h3 class="hint-text">{{ .title }}</h3>
+              </div>
+              <div class="swiper-wrapper ">
+                {{ range .items }}
+                {{ "<!-- BEGIN SLIDE -->" | safeHTML }}
+                <div class="swiper-slide bg-warning-light fit">
+                  <span class="m-t-5 sm-p-t-20 text-left x-large-text"><h1>{{ .title }}</h1><br>
+                      {{ .description }}
+                    </span>
+                </div>
+                {{ "<!-- END SLIDE -->" | safeHTML }}
+                {{ end }}
+              </div>
+              <p class="text-black hint-text font-saraban small-text bottom-left z-index-10 xs-relative xs-m-b-20 xs-m-t-20">{{ .footer }}</p>
+            </div>
+          </div>
+          <div class="col-sm-7 full-height pull-left">
+            <div class="container-xs-height full-height">
+              <div class="col-xs-height col-middle text-left">
+                <div class="col-md-11">
+                  <img alt="" class="image-responsive-height" src="{{ .frame | absURL }}">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{{ "<!-- OUR PURPOSE END -->" | safeHTML }}
+{{ end }}

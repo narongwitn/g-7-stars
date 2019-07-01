@@ -1,0 +1,32 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.about.strength }}
+{{ "<!-- START CONTENT SECTION -->" | safeHTML }}
+<section class="p-t-50 wow fadeInDown">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+        <h1 class="light m-t-5">{{ .title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!-- END CONTENT SECTION -->" | safeHTML }}
+{{ "<!-- BEGIN CONTENT SECTION -->" | safeHTML }}
+<section class="p-t-75">
+  <div class="container">
+    <div class="md-p-l-20">
+      {{ range .items }}
+      <div class="col-sm-4 no-padding str-col wow slideInLeft">
+        <div class="p-r-40 md-pr-30 text-center">
+          <img alt="" class="m-b-20" src="{{ .image | absURL }}" height="60">
+          <h5>{{ .title }}<i class="pg-arrow_right m-l-10"></i></h5>
+          <p class="m-b-30">{{ .description }}</p>
+        </div>
+        <div class="visible-xs b-b b-grey-light m-t-30 m-b-30"></div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ "<!-- END CONTENT SECTION -->" | safeHTML }}
+{{ end }}

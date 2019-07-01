@@ -1,0 +1,39 @@
+address : 
+  title : ติดต่อเรา
+  subtitle : ที่อยู่
+  address :
+    - detail : 51 Soi Rattanathibeth 28 Yak 2 
+    - detail : Bangkrasor,Muang, Nonthaburi
+    - detail : Thailand 11000
+
+  items :
+    - item : 
+        title : TEL 
+        description : +66(2)-965-8844-6
+    -  item : 
+        title : FAX 
+        description : FAX +66(0)-2965-8847
+    - item : 
+        title : EMAIL 
+        description : info@g7stars.com
+
+map : 
+  image : /images/map.jpg
+
+
+social : 
+  title : ติดตามเราได้ที่
+  line :
+    title : Line
+    name : gold7stars
+    image : 
+    link : https://line.me/R/ti/p/%40golden7stars
+  facebook :
+    title : Facebook
+    name : Golden Seven Stars Tour
+    link : https://www.facebook.com/Golden7StarsTour/
+
+banner :
+  title : ติดต่อเรา
+  image : /images/contact.jpg
+

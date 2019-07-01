@@ -1,0 +1,25 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.home.reason }}
+<section class="p-b-55 p-t-25 wow fadeInDown">
+  {{ "<!-- BEGIN TESTIMONIALS SLIDER-->" | safeHTML }}
+  <div class="swiper-container" id="testimonials_slider">
+    <div class="swiper-wrapper">
+      {{ range .items}}
+      {{ "<!-- BEGIN TESTIMONIAL -->" | safeHTML }}
+      <div class="swiper-slide">
+        <div class="container text-left">
+          <h5 class="semi-bold m-b-30"><span class="text-uppercase">{{ .title }}</span></h5>
+          <h3 class="m-b-30">"{{ .description }}"</h3>
+        </div>
+      </div>
+      {{ "<!-- END TESTIMONIAL -->" | safeHTML }}
+      {{ end }}
+    </div>
+    {{ "<!-- Add Navigation -->" | safeHTML }}
+    <div class="container">
+      <div class="swiper-pagination relative pull-left"></div>
+    </div>
+  </div>
+  {{ "<!-- END TESTIMONIALS -->" | safeHTML }}
+</section>
+{{ end }}

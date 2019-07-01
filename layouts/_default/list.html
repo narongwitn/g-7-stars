@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+{{ $truncate := default true .Site.Params.truncate }}
+
+<section class="container-fluid bg-master-lighter m-t-90">
+    <div class="container">
+    <div class="row row-sm-height">
+        <div class="col-md-12">
+            {{ $paginator := .Paginate (where .Pages "Type" "post") }}
+            {{ range $paginator.Pages }}
+            <div class="nrw-card share share-other m-t-20 p-b-15 wow fadeInDown" data-social="item" data-wow-delay=".3s" data-wow-duration="500ms">
+                <div class="nrw-card-content">
+                    <a href="{{ .Permalink }}">
+                    {{ with .Params.image }}<img class="img-fluid" src="{{ . | absURL }}" alt="post-image"/>{{ end }}
+                    </a>
+                </div>
+
+                <div>
+                    <div class="nrw-card-header">
+                    <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+                    </div>
+                    <div class="nrw-card-description">
+                    <h6 class="inline ">
+                        <span>
+                            {{ dateFormat "Monday, 2 Jan 2006" .Date }}
+                        </span>
+                        {{ with .Params.author }}
+                        <span>by
+                            {{ . }}
+                        </span>
+                        {{ end }}
+                    </h6>
+                        {{ range .Params.tags }}
+                        <button class="btn btn-tag  btn-tag-dark btn-tag-rounded">
+                            {{ . }}
+                        </button>
+                        {{ end }}
+                    </div>
+
+                </div>
+                <div class="nrw-card-description p-t-20 p-b-20">
+                    <p>
+                        {{ .Summary }}
+                    </p>
+                </div>
+                <div class="nrw-card-footer">
+                    {{ with .Permalink }}
+                    <a href="{{ . }}" class="btn btn-cons btn-bordered m-t-20 xs-m-b-15 btn-black">Continue Reading</a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            
+            {{ partial "paginator" . }}
+        </div>
+    </div>
+    </div>
+</section>
+{{end}}

@@ -1,0 +1,219 @@
+banner : 
+  title : บริการของเรา
+  image : images/banner.jpg
+
+serviceList :
+  items : 
+  - image : images/grouptour.jpg #DATA
+    link : modalGroupTour #DATA
+    title : ทัวร์หมู่คณะ
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/incentive.jpg #DATA
+    link : modalIncentive #DATA
+    title : การจัดกรุ๊ปเพื่อเป็นรางวัล
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/seminar.jpg #DATA
+    link : modalSeminar #DATA
+    title : การจัดประชุมสัมนา
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/fit.jpg #DATA
+    link : modalFitPackage #DATA
+    title : บริการท่องเที่ยวแบบ แพ็คเกจทัวร์ F.I.T.
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/aboard.jpg #DATA
+    link : modalAboard #DATA
+    title : ทัวร์ต่างประเทศ
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/transportation.jpg #DATA
+    link : modalTransportation #DATA
+    title : พาหนะเดินทางทุกประเภท
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/airline.jpg #DATA
+    link : modalAirline #DATA
+    title : บัตรโดยสารเครื่องบิน Airlines Ticket
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/activities.jpg #DATA
+    link : modalActivities #DATA
+    title : กิจกรรมหลากหลายรูปแบบ
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/guide.jpg #DATA
+    link : modalGuide #DATA
+    title : มัคคุเทศก์
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/consult.jpg #DATA
+    link : modalConsult #DATA
+    title : ให้คำปรึกษาเกี่ยวกับข้อมูลด้านการท่องเที่ยว
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/visa.jpg #DATA
+    link : modalVisa #DATA
+    title : รับทำ Visa ต่างประเทศทั่วโลก
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+  - image : images/event.jpg #DATA
+    link : modalEvent #DATA
+    title : Event
+    subtitle : ดูข้อมูลเพิ่มเติม
+
+aboard : 
+  identity : modalAboard #DATA
+  bannerImage : images/aboard.jpg #DATA
+  modalTitle : ทัวร์ต่างประเทศ
+  title : ทัวร์ต่างประเทศ
+  description : เราเน้นในเรื่องของคุณภาพของโปรแกรมการท่องเที่ยวและมัคคุเทศก์ที่ให้บริการ ตลอดจนการจัดการ และเจาะลึกข้อมูลในแต่ละประเทศ แนะนำสถานที่ท่องเที่ยวยอดนิยม  รวมทั้งให้คำปรึกษาและบริการด้านการขอวีซ่า เอกสารต่างๆในการเดินทาง เราสามารถช่วยคุณจัดการเกี่ยวกับกรุ๊ปเหมา ให้บริษัทคุณได้ เที่ยวสังสรรค์อย่างสะดวกสบาย เช่น สัมมนา ประชุม ดูงาน หรือทำกิจกรรมต่างๆ ต่างประเทศ โดยคำนึงถึงความต้องการของลูกค้าเป็นหลักสำคัญ
+  description2 : เพราะด้วยประสบการณ์ทีมงานด้านการท่องเที่ยวมายาวนานทำให้เรามั่นใจในบริการ และความเชี่ยวชาญในการ จัดกรุ๊ปทัวร์ ให้กับทุกท่านไม่ว่าจะเป็นองค์กรทั้งหน่วยงานราชการและเอกชน รวมถึงสถาบันการศึกษาต่างๆ
+
+activities :
+  identity : modalActivities #DATA
+  bannerImage : images/activities.jpg #DATA
+  modalTitle : Activities
+  banner : เราพร้อมเป็นส่วนหนึ่ง ในการพัฒนาองค์กรและทีมงานของท่าน พร้อมมอบความสุข และ ความประทับใจในทุกกิจกรรม
+  company : Golden Seven Stars Tour
+  title : กิจกรรมหลากหลายรูปแบบ
+  description : เราคือผู้เชี่ยวชาญในเรื่องการจัดงานกิจกรรมในรูปแบบต่างๆ กิจกรรมนันทนาการ​ รวมถึงรูปแบบการจัดงานปาร์ตี้ตาม Theme ที่ต้องการ เรามีทีมงานมืออาชีพคอยให้บริการดูแลตลอดจนจบกิจกรรม พร้อมสร้างความสนุกสนานและบรรลุตามวัตถุประสงค์หลักขององค์กรตามเงื่อนไขและงบประมาณที่วางไว้
+  title2 : OUR SERVICE
+  items :
+  - icon : images/service_event_00001.png
+    name : กิจกรรมพัฒนาบุคลากร
+    description : (Team Building / Camp Project / Recruit)
+  - icon : images/service_event_00002.png
+    name : กิจกรรมสาธารณประโยชน์
+    description : (CSR Team)
+  - icon : images/service_event_00003.png
+    name : กิจกรรม Special Activity
+    description : (Sport Day , Bus Rally ,Car  Rally, Walk Rally , Beach Games, Mini Games)
+
+
+airline : 
+  identity : modalAirline #DATA
+  bannerImage : images/airline.jpg #DATA
+  modalTitle : Airline Ticket
+  title : บัตรโดยสารเครื่องบิน Airlines Ticket
+  headline : GOLDEN SEVEN STARS TOUR
+  description1 : จำหน่ายบัตรโดยสารเครื่องบินทุกสายการบิน ทั้งในประเทศและต่างประเทศ พร้อมบริการส่งฟรีทุกที่หมายในเขตกรุงเทพมหานคร เราพร้อมให้ดูแลท่านในทุกเส้นทางบิน พร้อมด้วยทีมงานที่มีคุณภาพและเต็ม เปี่ยมด้วยความตั้งใจที่จะให้บริการ ช่วยแนะนำข้อมูลการเดินทาง อีกทั้งยังมีการนำเสนอโปรโมชั่นตั๋วราคาพิเศษ
+  headline : GOLDEN SEVEN STARS TOUR
+  image : images/arrow_down.png #DATA
+  description2 : เรามุ่งมั่นและใส่ใจที่จะพัฒนาคุณภาพการให้บริการอยู่เสมอ เพื่อให้ทุกท่านสามารถจองตั๋วเครื่องบินในราคาพิเศษ และสะดวกสบายมากขึ้น
+  ticket : images/boardingpass.png #DATA
+  title2 : ประโยชน์ที่ท่านจะได้รับ เมื่อใช้บริการจองบัตรโดยสารกับ G7stars
+  list : 
+    - item : เจ้าหน้าที่พร้อมให้บริการ และแนะนำโปรโมชันที่ตรงความต้องการของลูกค้า
+    - item : ตั๋วราคาพิเศษ ประหยัดเวลาและค่าใช้จ่าย
+    - item : สามารถจอง และทราบผลได้ทันที สะดวกรวดเร็ว
+    - item : มีช่องทางการชำระเงินแบบออนไลน์ ผ่านระบบ 2C2P สะดวกและปลอดภัย สามารถชำระเงินผ่านบัตรเครดิต/เดบิตได้ หรือเลือกชำระเงินผ่านช่องทางเคาเตอร์เซอร์วิส
+    - item : มีตั๋วเครื่องบินครอบคลุมทุกเส้นทางทั้งใน และต่างประเทศ
+
+
+consult : 
+  identity : modalConsult #DATA
+  bannerImage : images/consult.jpg #DATA
+  modalTitle : Consult
+  title : ให้คำปรึกษาเกี่ยวกับข้อมูลด้านการท่องเที่ยว
+  headline : Golden Seven Stars Tour
+  description : สำหรับท่านที่ต้องการข้อมูลแหล่งท่องเที่ยว เส้นทางต่างๆ  โปรแกรมการเดินทาง เรามีทีมงานที่มีประสบการณ์บริการอย่างมืออาชีพ คอยให้คำปรึกษาและช่วยคุณวางแผนการเดินทาง เรายินดีให้คำปรึกษาในทุกเส้นทาง เพื่อให้ทุกการท่องเที่ยวของคุณสมบูรณ์แบบ
+
+event : 
+  identity : modalEvent #DATA
+  bannerImage : images/event.jpg #DATA
+  modalTitle : Event
+  title : Event
+  description : GOLDEN IDEA เป็นบริษัทหนึ่งในเครือของ GOLDEN SEVEN STAR TOUR ดูแลด้านจัดงานอีเว้นท์ทุกรูปแบบที่ท่านต้องการ จัดงานแบบมืออาชีพ ด้วยทีมงานที่มากประสบการณ์ ได้รับความไว้วางใจจากบริษัทต่างๆ มีการวางแผนที่ดี เตรียมงานอย่างเป็นระบบ
+  logo : images/goldenidea_logo.png
+  name : EVENT
+  items :
+    - event : Special Activity - จัดงานด้านแสง สี เสียง รวมถึงเวทีต่างๆ
+    - event : Grand Opening - เปิดตัวบริษัท
+    - event : Product Launch/Awards - เปิดตัวสินค้า , มอบรางวัล
+    - event : Exihibition Organizer - งานแสดงสินค้า
+    - event : Staff Party / Private Party / Concert - จัดงานเลี้ยงทุกรูปแบบ
+    - event : Production Design - โครงสร้างบูธและผลิตบูธ
+    - event : PhotoGrapher - ช่างภาพและวีดีโอ
+
+fit :
+  identity : modalFitPackage #DATA
+  bannerImage : images/fit.jpg #DATA
+  modalTitle : บริการท่องเที่ยวแบบ แพ็คเกจทัวร์ [ F.I.T. ]
+  title : มาทำความรู้จักกับการท่องเที่ยวแบบ F.I.T
+  description : F.I.T หรือ การท่องเที่ยวแบบอิสระ (FIT – Foreign Individual Tourism)  เป็นลักษณะการท่องเที่ยวที่นักท่องเที่ยวสามารถจัดการวางแผนด้วยตนเองได้ทุกขั้นตอน สำหรับท่านที่ต้องการเดินทางโดยส่วนตัวหรือจำนวนผู้เดินทาง 1-3 คน สามารถควบคุมเวลาในการท่องเที่ยวได้ตามต้องการสามารถเลือกคุณภาพของสินค้าและบริการได้ตามความต้องการและเหมาะสมกับวงประมาณของตนเอง
+  headline : เลือกท่องเที่ยวแบบ  F.I.T. กับ G7stars
+  footer : ทางบริษัทจะคัดเลือกที่พัก ยานพาหนะ และนำเสนอโปรแกรมท่องเที่ยว  ทั้งในประเทศ และต่างประเทศ อย่างมืออาชีพ เน้นการให้บริการและดูแลอย่างใกล้ชิด เพื่อให้ทุกท่านมีความสุขในวันพักผ่อนมากที่สุด
+
+grouptour : 
+  identity : modalGroupTour #DATA
+  bannerImage : images/grouptour.jpg #DATA
+  modalTitle : Group Tour
+  title1 : ทัวร์หมู่คณะ
+  description1 : สำหรับท่านที่วางแผนจะเดินทางท่องเที่ยวแบบกรุ๊ป โดยต้องการความเป็นส่วนตัว เดินทางเฉพาะกลุ่มของตัวเอง หรือ การจัดให้กับพนักงาน โดยทั่วไปเป็นการจัดรูปแบบให้โบนัส อันเป็นผลจากการอุตสาหะในการทำงานของพนักงานมาตลอดปี และยังเป็นการเชื่อมความสามัคคี เสริมสัมพันธ์ไมตรีระหว่างพนักงานด้วยกัน
+  title2 : GOLDEN SEVEN STARS TOUR
+  description2 : เราสามารถสร้างความประทับใจให้กับผู้เดินทาง ท่านสามารถกำหนดสถานที่ อาหาร พาหนะเดินทาง ให้เหมาะกับงบประมาณและค่าใช้จ่ายของบริษัทฯ ได้ตามที่ต้องการ
+  title3 : จัดทัวร์ได้ตามจุดประสงค์การเดินทาง
+  description3 : เราคือผู้ช่วยที่ดีของคุณ ให้บริการด้านการท่องเที่ยวจัดทัวร์ กรุ๊ปทัวร์ กรุ๊ปเหมา เดินทางไปดูงานต่างประเทศ สัมมนา หรือมีกิจกรรมนอกสถานที่ สันทนาการต่างๆ งานเลี้ยงสังสรรค์ ฯลฯ ด้วยราคาที่ท่านพึงพอใจ  ซึ่งท่านสามารถกำหนดงบประมาณได้ด้วยตนเอง จากประสบการณ์มากกว่า 10 ปี ในด้านบริการทัวร์และท่องเที่ยว เราสามารถดูแลท่านได้อย่างมืออาชีพ
+
+guide : 
+  identity : modalGuide #DATA
+  bannerImage : images/grouptour.jpg #DATA
+  modalTitle : Guide
+  banner : เราพร้อมเป็นส่วนหนึ่ง ในการพัฒนาองค์กรและทีมงานของท่าน พร้อมมอบความสุข และ ความประทับใจในทุกกิจกรรม
+  headline : Golden Seven Stars Tour
+  description : เรามีบริการดูแลท่านตลอดทุกการเดินทาง ทั้งแบบรายบุคคลหรือเป็นกลุ่มคณะเพื่อชม สถานที่ต่าง ๆ หรือท่องเที่ยวตามแผนการที่กำหนดไว้  ดูแลอำนวยความสะดวก แนะนำสถานที่ต่างๆ จุดที่น่าสนใจทั้งหมด และให้ข้อมูลข่าวสารที่ถูกต้อง  เราเน้นถึงการบริการที่เอาใจใส่ดูแล เป็นกันเองสนุกสนาน บริการให้ข้อมูลในทุกเส้นทาง เพื่อให้ทุกท่านมีความสุขสะดวกสบายตลอดการเดินทาง
+
+incentive :
+  identity : modalIncentive #DATA
+  bannerImage : images/incentive.jpg #DATA
+  modalTitle : Incentive Tour
+  title : Incentive Tour
+  intro : ปัจจุบันนี้บริษัทฯ หรือหน่วยงานต่างๆ จะมีนโยบายในการจัดการท่องเที่ยวให้กับพนักงานหรือลูกค้า เพื่อเป็นรางวัลและเป็นแรงกระตุ้นในการเพิ่มผลผลิตหรือเพิ่มยอดขายให้กับองค์กร
+  description : เราสามารถคิดรูปแบบตามที่ท่านต้องการช่วยสนับสนุนแผนกการส่งเสริมการขายให้บรรลุเป้าหมายให้ได้ผลดียิ่งขึ้น เริ่มต้นตั้งแต่ก่อนการเดินทาง จัดเตรียมข้อมูลต่างๆ ให้ลูกค้าทราบล่วงหน้าเพื่อเป็นการเตรียมตัวได้ถูกต้อง รวมทั้งสร้างแรงกระตุ้น เพิ่มแรงจูงใจในการสร้างยอดขายแก่ผู้เดินทางก่อนการเดินทาง ตามโอกาส และความเหมาะสมพร้อมจัดสิ่งพิเศษจากการเดินทางท่องเที่ยวที่หาไม่ได้จากการเดินทางโดยทั่วไป เพื่อสร้างความประทับใจ และรู้สึกถึงการให้ความสำคัญจากบริษัทของท่านที่ให้แก่คณะผู้เดินทาง
+  hilight : GOLDEN SEVEN STARS TOUR
+  footer : พร้อมที่จะมอบบริการดังกล่าวเหล่านี้แก่ท่าน ซึ่งเรามีภูมิใจที่จะได้เป็นส่วนหนึ่งในความสำเร็จในทุกๆ ด้าน ที่ท่านตั้งเป้าหมายไว้
+
+seminar :
+  identity : modalSeminar #DATA
+  bannerImage : images/seminar.jpg #DATA
+  modalTitle : Training, Seminar
+  bannerTitle : รับจัดอบรม ประชุมสัมมนา
+  description : การจัดอบรม  และ  ประชุมสัมมนา การจัดอบรมสัมมนา เป็นการที่บริษัทหรือองค์กรต้องการให้พนักงาน หรือผู้เข้าอบรมสัมมนา และประชุมได้ความรู้ ความเข้าใจ เพื่อให้เกิดไอเดีย ความคิดสร้างสรรค์ของผู้ร่วมงาน ซึ่งถือว่าเป็นการจัดให้บรรลุวัตถุประสงค์ ที่ตั้งไว้
+  footer : พนักงานจะได้รับความรู้หรือข้อมูลใหม่ๆควบคู่ไปกับการท่องเที่ยว ซึ่งจะสร้างความประทับใจไม่น่าเบื่อ และเป็นกลไกสำคัญ ที่จะทำให้เกิดความเชื่อมั่น ภูมิใจในสินค้าและหน้าที่รับผิดชอบของตนอันจะเป็นผลต่อเนื่องมาถึงภาพลักษณ์ที่ดีของบริษัทด้วยรวมถึงบริการจัดการหาพิธีกร พริตตี้ นักแสดง งานต่างๆ โดยขึ้นอยู่กับรูปแบบความเหมาะสมของงานเป็นสำคัญ
+
+transportation : 
+  identity : modalTransportation #DATA
+  bannerImage : images/transportation.jpg #DATA
+  modalTitle : Transportation
+  bannerTitle : Transportation
+  title : GOLDEN SEVEN STARS TOUR
+  description : เราพิถีพิถันในการเลือกพาหนะเดินทางให้เหมาะสมกับจำนวนคนและเส้นทาง  คำนึงถึงความปลอดภัยเป็นหลัก มารยาทของผู้ให้บริการที่เลือกสรรเป็นพิเศษสำหรับการเดินทางของลูกค้าทุกท่าน เรามีบริการรถระดับ VIP มีมาตรฐานความปลอดภัยสูง สำหรับดูแลท่านทุกเส้นทาง
+  servicesTitle : บริการของ G7stars 
+  serviceList : 
+    - service : บริการแบบท่องเที่ยว
+    - service : บริการแบบสัมมนา
+    - service : บริการรับ-ส่งพนักงาน
+    - service : บริการรับ-ส่งผู้บริหาร
+    - service : บริการทั่วไป
+
+  footerTitle : OUR SERVICE
+  footerTitle : OUR SERVICE
+  travelServices : 
+    - service : บริการรถทัวร์
+      icon : images/bus.svg #DATA
+    - service : บริการรถตู้ VIP
+      icon : images/van.svg #DATA
+    - service : บริการรถตุ๊กตุ๊ก
+      icon : images/tuk-tuk.svg #DATA
+
+visa : 
+  identity : modalVisa #DATA
+  bannerImage : images/visa.jpg #DATA
+  modalTitle : Visa
+  title : รับทำVisa ต่างประเทศทั่วโลก
+  description : GOLDEN SEVEN STAR TOUR บริการและให้คำปรึกษาทางด้านการยื่น ขอวีซ่าต่างประเทศทั่วโลก โดยทีมงานมืออาชีพและพร้อมด้วยประสบการณ์ ในการให้คำแนะนำ และบริการยื่นขอวีซ่า ทั้งวีซ่าเพื่อการท่องเที่ยว และวีซ่าเพื่อธุรกิจ รวมไปถึงบริการ จองโรงแรม, ประกันการเดินทาง
+  headline : ขั้นตอนในการยื่นขอวีซ่ากับ GOLDEN SEVEN STAR TOUR
+  image : images/visa-info.png #DATA

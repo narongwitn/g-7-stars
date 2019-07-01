@@ -1,0 +1,18 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.about.cert }}
+{{ "<!-- START CONTENT SECTION -->" | safeHTML }}
+<section class="p-b-60 bg-master-lightest wow fadeInDown">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+        <div class="row m-t-60">
+          <div class="col-sm-12 text-center">
+            <img class="m-t-30 cert" src="{{ .image | absURL }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!-- END CONTENT SECTION -->" | safeHTML }}
+{{ end }}

@@ -1,0 +1,51 @@
+banner : 
+  title : DISCOVER YOUR DREAM...
+  license : 
+    name : TAT Travel licence
+    number : 'No. 11/0382'
+
+polaroid : 
+  bgImage : images/aus.jpg #DATA
+  name : GOLDEN SEVEN STAR TOUR
+  title : ผู้นำด้านการท่องเที่ยวด้วยมาตรฐานการบริการที่ดีครบวงจร
+  subtitle : มุ่งเน้นการดูแลลูกค้าทุกระดับอย่างมีคุณภาพ พร้อมให้คำปรึกษาได้อย่างรวดเร็วและตอบโจทย์ทุกความต้องการ
+  frame : images/polaroid.png
+  image : images/europe.jpg
+  headline : Golden Seven Stars Tour
+  description : บริษัท โกล์เด็นเซเว่นสตาร์สทัวร์ จำกัด 
+            เปิดดำเนินการตั้งแต่วันที่ 15 พฤศจิกายน 2547 เริ่มก่อตั้งขึ้นโดยการรวมตัวกันของทีมงานที่มีประสบการณ์ ชอบในการท่องเที่ยวและมีทัศนคติอย่างเดียวกัน คือการพัฒนาการท่องเที่ยวอย่างมีจิตสำนึก เพื่อตอบสนองความต้องการของลูกค้าทุกรูปแบบ สร้างความพึงพอใจ ความประทับใจและการดูแลลูกค้าด้วยทีมงานมีคุณภาพ เรามั่นใจเป็นอย่างยิ่งว่า ท่านจะค้นพบความฝันของท่านอย่างแท้จริงภายใต้สโลแกน
+
+purpose :
+  icon : images/goal.svg #DATA
+  title : จุดมุ่งหมาย
+  items : 
+    - title : พันธกิจ
+      description : บริษัทมุ่งมั่นที่จะจัดเตรียมแผนท่องเที่ยวที่ดีที่สุดของลูกค้า และบริการด้านต่างๆ ให้ได้คุณภาพ และมาตรฐาน เพื่อตอบสนองความพึงพอใจ และสร้างสัมพันธ์ที่ดี ให้กับลูกค้าเป็นสำคัญ
+    - title : พันธกิจ
+      description : เรามีทีมงานคุณภาพที่พร้อมในด้านต่างๆ เพื่อตอบสนองความต้องการของลูกค้าได้อย่างรวดเร็ว และมีประสิทธิภาพ บริษัทมีความยินดีที่จะให้บริการแก่ทุกท่านและคณะเดินทาง
+
+  subtitle : The company intends to  provide customers with the most satisfying journeys. And provide quality services and standards to meet customer satisfaction and create a relationship that’s good for the customer is important.
+  frame : images/window.png #DATA
+  footer : The company intends to  provide customers with the most satisfying journeys. And provide quality services and standards to meet customer satisfaction and create a relationship that’s good for the customer is important.
+  
+reason :
+  banner : images/work.jpg
+  title : เหตุผลที่ลูกค้าเลือกใช้บริการ
+  description : เราคือมืออาชีพ ที่จะทำให้ผลตอบแทนของลูกค้าคุ้มค่าที่สุด และสร้างประสบการณ์ที่ดีให้กับทุกท่านที่มาใช้บริการของเรา ท่านจึงมั่นใจได้ว่าทุกครั้งที่เดินทางท่องเที่ยวกับ โกล์เด็นเซเว่นสตาร์สทัวร์ จะเป็นเวลาที่ท่านจะได้รับการเอาใจใส่อย่างดีที่สุด จุดยืนของเราอยู่บนพื้นฐาน 7 ประการดังนี้
+  items :
+    - title : 1. well-organized
+      description : พนักงานของบริษัท มีการจัดการที่เป็นระบบและให้ความสำคัญในรายละเอียดปลีกย่อย ทุกเรื่อง ความรวดเร็วในการให้บริการ
+    - title : 2. friendly and easygoing
+      description : การบริการของมัคคุเทศก์ จริงใจและเป็นกันเอง พร้อมที่จะสร้างความประทับใจกับการ เดินทางให้ทุกท่านเมื่อเลือกใช้บริการ
+    - title : 3. unforgettable memories
+      description : การสร้างความประทับใจ ในการเดินทาง ไม่ว่าจะเป็นโปรแกรม, สถานที่ท่องเที่ยว, อาหาร, ยานพาหนะเดินทาง,โรงแรมที่พัก, อุปกรณ์ต่างๆ โดยทีมงานที่มีประสบการณ์
+    - title : 4. pay attention to all the details
+      description : ทีม sales ที่มีประสบการณ์ตอบสนองความต้องการของลูกค้าทุกรูปแบบ และ ให้ความสำคัญกับรายละเอียด โดยการนำเสนอที่เป็นมาตรฐาน
+    - title : 5. varieties of activities and entertainment
+      description : เราสร้างสรรค์รูปแบบกิจกรรมที่หลากหลาย ปาร์ตี้ทุกรูปแบบ ความสนุกสนานและความ บันเทิงต่างๆโดยอาศัยการท่องเที่ยวเป็นสื่อนำ จึงสร้างความประทับใจเป็นพิเศษใหักับผู้ร่วมเดินทาง
+    - title : 6. safety
+      description : เราคำนึงถึงความปลอดภัยซึ่งเป็นหัวใจของการเดินทาง
+    - title : 7. reasonable prices
+      description : ราคาทัวร์ สมเหตุสมผลและเป็นธรรม เพราะในแต่ละโปรแกรมเป็นการจัดขึ้นพิเศษสำหรับคณะของท่านเท่านั้น
+
+

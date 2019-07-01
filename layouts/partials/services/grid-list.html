@@ -1,0 +1,18 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.services.serviceList }}
+{{ "<!-- GRID LIST START -->" | safeHTML }}
+<section class="container-fluid b-t b-white">
+  <div class="row">
+    {{ range .items }}
+    <div class="col-md-4 text-center bg-success hover-push demo-story-block wow fadeInLeftBig">
+      <div class="hover-backdrop" style='background:url(" {{ .image | absURL }}")'></div>
+      <div class="hover-caption bottom-left bottom-right p-b-40">
+        <h4 class="text-white m-b-25 clear"><a data-toggle="modal" data-target="#{{ .link }}">{{ .title}}</a></h4>
+        <a class="font-promt fs-12 hint-text text-white all-caps" data-toggle="modal" data-target="#{{ .link }}">{{ .subtitle }}</a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ "<!-- GRID LIST END -->" | safeHTML }}
+{{ end }}

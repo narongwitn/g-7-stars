@@ -1,0 +1,35 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.home.banner }}
+{{ "<!-- VDO BANNER START -->" | safeHTML }}
+    <section id="meet"  class="jumbotron full-height bg-primary demo-height-2 wow fadeInDown">
+      <div class="op-left bottom-right full-width full-vh z-index-1" data-vide-bg="{{ "video/hero.mp4" | absURL }}" data-vide-options="loop: true, muted: true, position: 50% 0%">
+      </div>
+      <div class="video-overlay z-index-1">
+      </div>
+      <div class="container-xs-height full-height z-index-1">
+        <div class="col-xs-height col-middle text-left">
+          {{ "<!-- BEGIN CONTENT -->" | safeHTML }}
+          <div class="inner full-height">
+            <div class="container-xs-height full-height xs-m-b-25 xs-p-b-20">
+              <div class="col-xs-height col-middle text-center">
+                <div class="container">
+                  <div class="row xs-p-b-20">
+                    <div class="col-md-8 col-md-offset-2 xs-p-t-20 xs-p-b-20">
+                      <h1 class="light text-white m-t-5" data-swiper-parallax="-15%">
+                       {{ .title }}
+                     </h1>
+                   </div>
+                 </div>
+                 <p class="bottom-right small-text text-white text-right p-b-40 p-r-40 xs-p-b-20 xs-p-r-20">
+                  <span class="hint-text">{{ .license.name }}</span> <span class="m-l-25 xs-m-l-10">{{ .license.number }}</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ "<!-- END CONTENT -->" | safeHTML }}
+      </div>
+    </div>
+  </section>
+{{ "<!-- VDO BANNER END -->" | safeHTML }}
+{{ end }}

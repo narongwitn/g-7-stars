@@ -1,0 +1,50 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.about.slide }}
+{{ "<!-- ABOUT SLIDE START -->" | safeHTML }}
+<section class="jumbotron full-vh wow fadeInDown" data-pages="parallax">
+  <div class="inner full-height">
+    {{ "<!-- BEGIN SLIDER -->" | safeHTML }}
+    <div class="swiper-container" id="hero">
+      <div class="swiper-wrapper">
+
+        {{ range .items }}
+
+        {{ "<!-- BEGIN SLIDE -->" | safeHTML }}
+        <div class="swiper-slide fit bg-complete">
+          {{ "<!-- BEGIN IMAGE PARRALAX -->" | safeHTML }}
+          <div class="slider-wrapper">
+            <div class="background-wrapper" data-swiper-parallax="20%">
+              {{ "<!-- YOUR BACKGROUND IMAGE HERE, YOU CAN ALSO USE IMG with the same classes -->" | safeHTML }}
+              <div data-pages-bg-image="{{ .image | absURL }}" draggable="false" class="background" data-bg-overlay="black" data-overlay-opacity="0.4"></div>
+            </div>
+          </div>
+          {{ "<!-- END IMAGE PARRALAX -->" | safeHTML }}
+          {{ "<!-- BEGIN CONTENT -->" | safeHTML }}
+          <div class="content-layer">
+            <div class="inner full-height">
+              <div class="container-xs-height full-height">
+                <div class="col-xs-height col-middle text-left">
+                  <div class="container text-center">
+                    <h1 class="m-t-5 light text-white" data-pages-animation="standard" data-delay="600" data-type="transition.slideDownIn">{{ .title }}
+                    </h1>
+                    <h5 class="block-title text-white" data-pages-animation="standard" data-delay="1000" data-type="transition.fadeIn">{{ .description }}</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ "<!-- END CONTENT -->" | safeHTML }}
+        </div>
+        {{ "<!-- END SLIDE -->" | safeHTML }}
+
+        {{ end }}
+      </div>
+      {{ "<!-- Add Navigation -->" | safeHTML }}
+      <div class="swiper-navigation swiper-rounded swiper-white-solid swiper-button-prev"></div>
+      <div class="swiper-navigation swiper-rounded swiper-white-solid swiper-button-next"></div>
+    </div>
+  </div>
+  {{ "<!-- END SLIDER -->" | safeHTML }}
+</section>
+{{ "<!-- ABOUT SLIDE END -->" | safeHTML }}
+{{ end }}

@@ -1,0 +1,125 @@
+baseURL = "http://localhost:1313"
+languageCode = "th-TH"
+title = "โกล์เด็นเซเว่นสตาร์สทัวร์"
+description = "DISCOVER YOUR DREAM"
+theme = "timer-hugo"
+
+# Pagination
+paginate = 4
+paginatePath = "page"
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "th"
+
+# Site Params
+[params]
+    logo = "images/logo-small.png"
+
+    # Gestion des langues : FR / EN / NL / DE
+    [[Params.listeLangues]]
+    code = "th"
+    [[Params.listeLangues]]
+    code = "en"
+
+
+
+
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+    ############ 1 - Site THAI
+    [Languages.th]
+    weight = 1
+    languageCode = "th-th"
+    languageName = "ภาษาไทย"
+    title = "โกล์เด็นเซเว่นสตาร์สทัวร์"
+    dateFormat = "2 January 2006"
+
+    home = "Home"
+    logo = "images/logo-small.png"
+    menufixed = false
+
+    ############# 2 - Site en ENGLISH
+    [Languages.en]
+    weight = 2
+    languageCode = "en-us"
+    languageName = "English"
+    title = "Golden Seven Star Tour"
+    dateFormat = "January 2, 2006"
+
+    home = "Home"
+    logo = "images/logo-small.png"
+    menufixed = false
+
+
+
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "Travel Service"
+        url     = "services"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Travel Guide"
+        url     = "blog"
+        weight  = 3
+    [[menu.nav]]
+        name    = "About"
+        url     = "about"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Contact"
+        url     = "contact"
+        weight  = 5
+          # footer
+
+# footer
+[Params.footer]
+
+[[Params.footer.nav]]
+    title   = "1"
+    [[Params.footer.nav.items]]
+        info = "1.1"
+    [[Params.footer.nav.items]]
+        info = "1.1"
+    [[Params.footer.nav.items]]
+        info = "1.2"
+[[Params.footer.nav]]
+    title   = "2"
+[[Params.footer.nav]]
+    title   = "3"
+
+
+#address
+[[Params.footer.addresses]]
+address = "51 Soi Rattanathibeth 28 Yak 2 "
+
+[[Params.footer.addresses]]
+address = "Bangkrasor,Muang, Nonthaburi"
+
+[[Params.footer.addresses]]
+address = "Thailand 11000"
+
+
+#contact information
+[[Params.footer.contacts]]
+contactInfo = "Tel: +90 000 333 22"
+
+[[Params.footer.contacts]]
+contactInfo = "Mail: exmaple@ymail.com"
+
+

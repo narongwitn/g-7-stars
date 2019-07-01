@@ -1,0 +1,46 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.contact }}
+<!-- START CONTACT SECTION -->
+<section class="container container-fixed-lg p-t-50 p-b-100  sm-p-b-30 sm-m-b-30">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="p-l-40 sm-p-l-0 sm-p-t-10">
+
+        <div class="row">
+          <div class="col-sm-6 wow fadeInDown">
+            <h3 class="hint-text m-b-0">{{ .address.subtitle }} </h3>
+            <address class="m-t-10 m-b-10 fs-30">
+              {{ range .address.address }}
+              {{ .detail}}<br> 
+              {{ end}}
+            </address>
+            {{ range .address.items }}
+            <p class="hint-text no-margin fs-20">
+              <span class="font-promt bold all-caps p-r-10">{{ .item.title}} :</span>
+              <span>{{ .item.description }}</span>
+            </p>
+            {{ end }}
+            <h3 class="hint-text">{{ .social.title }} </h3>
+            <p class="hint-text no-margin fs-20">
+              <span class="font-promt bold all-caps p-r-10">{{ .social.facebook.title}} :</span>
+              <a href="{{ .social.facebook.link }}">
+                <span>{{ .social.facebook.name }}</span>
+              </a>
+            </p>
+            <p class="hint-text no-margin fs-20">
+              <span class="font-promt bold all-caps p-r-10">{{ .social.line.title}} :</span>
+              <a href="{{ .social.line.link }}">
+                <span>{{ .social.line.name }}</span>
+              </a>
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <img class="col-xs-12 p-r-40 m-t-10 xs-image-responsive-height sm-no-padding wow fadeInDown" src="{{ .map.image | absURL }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END CONTACT SECION -->
+{{ end }}

@@ -1,0 +1,67 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.services.incentive }}
+<!-- incentive modal -->
+<div class="modal fade slide-up" id="{{ .identity }}" tabindex="-1" role="dialog" aria-labelledby="modalSlideUpLabel" aria-hidden="false">
+  <div class="modal-dialog ">
+    <div class="modal-content-wrapper">
+      <div class="modal-content">
+        <div class="modal-header clearfix text-left">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            <i class="pg-close fs-14"></i>
+          </button>
+          <h5>{{ .modalTitle }}</h5>
+        </div>
+        <div class="modal-body">
+          <!-- BEGIN JUMBOTRON -->
+          <section class="p-b-50 p-t-50 bg-center" data-pages-bg-image="{{ .bannerImage | absURL }}" data-bg-overlay="black" data-overlay-opacity="0.4">
+            <div class="inner full-height">
+              <div class="container-xs-height full-height text-center">
+                <div class="col-xs-height col-middle">
+                  <div class="container">
+                    <div class="col-sm-6 col-sm-offset-3 sm-m-t-30 sm-p-t-20 sm-p-b-20">
+                      <h1 class="light text-center text-white xs-p-t-30 sm-p-b-30">
+                        {{ .title }}
+                      </h1>
+                      <h4 class="text-white">{{ .intro }}
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END JUMBOTRON -->
+              <!-- BEGIN CONTENT SECTION -->
+    <section class="p-t-30 p-b-60">
+      <div class="container">
+        <div class="md-p-l-20 md-p-r-20 xs-no-padding">
+          <div class="row">
+            <div class="col-sm-6 xs-p-t-30">
+              <div class="p-l-30 xs-no-padding">
+                <h4 class="block-title hint-text no-margin">{{ .title }}</h4>
+                <div class="clearfix"></div>
+                <p>{{ .description }}
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-6 b-r b-grey xs-b-b b-grey">
+
+              <h2 class="m-t-5">{{ .hilight }}</h2>
+              <div class="col-sm-10 no-padding">
+                <h4 class="hint-text">{{ .footer }}</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTENT SECTION -->
+
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+</div>
+<!-- incentive modal -->
+{{ end }}

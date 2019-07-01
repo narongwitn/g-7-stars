@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<section class="p-b-20 m-t-100">
+  <div class="container text-left">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="m-t-5 light">{{ .Title }}</h1>
+        <h6 class="block-title m-b-0">
+            <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>|
+            <span> Tags:
+                {{ if ne .Params.tags nil }}{{ delimit .Params.tags ", " }}{{ end }}
+            </span>
+        </h6>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ with .Params.image }}
+    <section class="jumbotron demo-custom-height-1 full-width" data-pages="parallax" data-pages-bg-image="{{ . | absURL }}">
+
+    </section>
+{{ end }}
+
+<section class="p-b-50 p-t-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    {{ .Content }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{end}}

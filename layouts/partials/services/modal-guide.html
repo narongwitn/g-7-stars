@@ -1,0 +1,52 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.services.guide }}
+<!-- guide modal -->
+<div class="modal fade slide-up" id="{{ .identity }}" tabindex="-1" role="dialog" aria-labelledby="modalSlideUpLabel" aria-hidden="false">
+  <div class="modal-dialog ">
+    <div class="modal-content-wrapper">
+      <div class="modal-content">
+        <div class="modal-header clearfix text-left">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            <i class="pg-close fs-14"></i>
+          </button>
+          <h5>{{ .modalTitle }}</h5>
+        </div>
+        <div class="modal-body">
+          <!-- BEGIN JUMBOTRON -->
+          <section class="p-b-85 p-t-75 bg-center" data-pages-bg-image="{{ "images/guide.jpg" | absURL }}" data-bg-overlay="black" data-overlay-opacity="0.4">
+            <div class="inner full-height">
+              <div class="container-xs-height full-height">
+                <div class="col-xs-height col-middle text-left">
+                  <div class="container">
+                    <div class="col-sm-6 col-sm-offset-3 sm-m-t-30 sm-p-t-20 sm-p-b-20">
+                      <h2 class="light text-center text-white xs-p-t-30 sm-p-b-30">
+                        {{ .banner }}
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END JUMBOTRON -->
+          <!-- BEGIN CONTENT SECTION -->
+          <section class="p-b-60 p-t-70">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <h1 class="m-t-5 light">{{ .headline }}</h1>
+                  <p class="m-t-20">{{ .description }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END CONTENT SECTION -->
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+</div>
+<!-- guide modal -->
+{{ end }}

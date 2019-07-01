@@ -1,0 +1,23 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.services.banner }}
+{{ "<!-- SERVICE BANNER START -->" | safeHTML }}
+<section id="demo-hero-4" class="jumbotron relative full-vh wow fadeInDown" data-pages-bg-image="{{ .image | absURL }}">
+  <div class="container-xs-height full-height">
+    <div class="col-xs-height col-middle">
+      <!-- BEGIN CONTENT -->
+      <div class="content-layer">
+        <div class="inner full-height">
+          <div class="container-xs-height full-height">
+            <div class="col-xs-height col-middle text-center">
+              <h1 class="hidden-xs">{{ .title }}</h1>
+              <h2 class="visible-xs">{{ .title }}</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END CONTENT -->
+    </div>
+  </div>
+</section>
+{{ "<!-- SERVICE BANNER END -->" | safeHTML }}
+{{ end }}

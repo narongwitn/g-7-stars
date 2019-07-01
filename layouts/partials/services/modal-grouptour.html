@@ -1,0 +1,52 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.services.grouptour }}
+<!-- group tour modal -->
+<div class="modal fade slide-up" id="{{ .identity }}" tabindex="-1" role="dialog" aria-labelledby="modalSlideUpLabel" aria-hidden="false">
+  <div class="modal-dialog ">
+    <div class="modal-content-wrapper">
+      <div class="modal-content">
+        <div class="modal-header clearfix text-left">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            <i class="pg-close fs-14"></i>
+          </button>
+          <h5>{{ .modalTitle }}</h5>
+        </div>
+        <div class="modal-body">
+          <!-- BEGIN INTRO CONTENT -->
+          <section id="launch" class="p-b-30 p-t-60 no-overflow relative">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <h1 class="m-t-5">{{ .title1 }}</h1>
+                  <p class="m-t-20">{{ .description1 }}</p>
+                  <h2 class="m-t-0">{{ .title2 }}</h2>
+                  <p class="m-t-0">{{ .description2 }}</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END INTRO CONTENT -->
+          <!-- BEGIN CONTENT SECTION -->
+          <section class="p-b-50 p-t-50 bg-master-darkest bg-center" data-pages-bg-image="{{ .bannerImage | absURL }}" data-bg-overlay="black" data-overlay-opacity="0.5">
+            <div class="container p-b-50 p-t-50">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <div class="col-xs-height col-middle">
+                    <div class="text-center">
+                      <h2 class="text-white col-sm-12 p-b-10">{{ .title3 }}</h2>
+                      <p class="font-kanit text-white m-t-30">{{ .description3 }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END CONTENT SECTION -->
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+</div>
+<!-- group tour modal -->
+{{ end }}

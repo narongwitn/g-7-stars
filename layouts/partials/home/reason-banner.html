@@ -1,0 +1,16 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.home.reason }}
+<section class="p-t-55 bg-success-light scroll-x-hidden wow fadeInDown" data-pages-bg-image="{{ "images/work.jpg" | absURL }}" data-pages="parallax">
+  <div class="container p-b-100">
+    <h2 class="m-t-5 light text-white">{{ .title }}</h2>
+    <div class="row p-b-65 p-t-20">
+      <div class="col-sm-6">
+        
+        <p class="text-white font-saraban m-b-50">{{ .description }}</p>
+        <h1 class="m-t-5 light text-white">"DISCOVER YOUR DREAM"</h1>
+      </div>
+    </div>
+    <div class="content-triangle"></div>
+  </div>
+</section>
+{{ end }}

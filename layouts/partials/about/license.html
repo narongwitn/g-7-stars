@@ -1,0 +1,20 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.about.license }}
+{{ "<!-- START CONTENT SECTION -->" | safeHTML }}
+<section class="p-b-100 p-t-30 bg-master-lightest">
+  <div class="container-sm-height">
+    <div class="row row-sm-height sm-m-l-15 sm-m-r-15">
+      <div class="col-lg-2 col-md-1 hidden-sm"></div>
+      <div class="col-sm-6 col-lg-4 col-md-5 col-sm-height col-middle sm-text-center">
+        <img class="col-xs-12 p-r-40 m-t-10 xs-image-responsive-height sm-no-padding wow fadeInDown" src="{{ .image | absURL }}" alt="">
+      </div>
+      <div class="col-sm-6 col-sm-height col-middle col-lg-4 col-md-4 xs-text-center sm-p-l-30">
+        <h2 class="light md-no-margin sm-m-t-30 wow fadeInDown">{{ .title }}</h2>
+        <p class="m-t-15 wow fadeInDown">{{ .description }}</p>
+      </div>
+      <div class="col-lg-2 col-md-1 hidden-sm"></div>
+    </div>
+  </div>
+</section>
+{{ "<!-- END CONTENT SECTION -->" | safeHTML }}
+{{ end }}

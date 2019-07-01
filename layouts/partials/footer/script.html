@@ -1,0 +1,55 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBrKAxR3Ut9Vu0hUNe6W388dPf3Q9ZLjm0",
+    authDomain: "g-7-stars-tour.firebaseapp.com",
+    databaseURL: "https://g-7-stars-tour.firebaseio.com",
+    projectId: "g-7-stars-tour",
+    storageBucket: "",
+    messagingSenderId: "1060341040598",
+    appId: "1:1060341040598:web:ccc81a7e24a82279"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+{{ "<!-- jquery -->" | safeHTML }}
+<script type="text/javascript" src="{{ "plugins/jquery/jquery-1.11.1.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "plugins/pace/pace.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "pages/js/pages.image.loader.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "plugins/jquery-unveil/jquery.unveil.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "plugins/text-rotate/jquery.simple-text-rotator.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "plugins/swiper/js/swiper.jquery.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "plugins/velocity/velocity.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "plugins/velocity/velocity.ui.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "plugins/vide/jquery.vide.min.js" | absURL }}"></script>
+
+<script type="text/javascript" src="{{ "pages/js/pages.frontend.js" | absURL }}"></script>
+
+<script type="text/javascript" src="{{ "js/custom.js" | absURL }}"></script>
+
+{{ "<!-- Form Validation -->" | safeHTML }}
+<script type="text/javascript" src="{{ "plugins/form-validation/jquery.form.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "plugins/form-validation/jquery.validate.min.js" | absURL }}"></script>
+{{ "<!-- slick slider -->" | safeHTML }}
+<script type="text/javascript" src="{{ "plugins/slick/slick.min.js" | absURL }}"></script>
+{{ "<!-- bootstrap js -->" | safeHTML }}
+<script type="text/javascript" src="{{ "plugins/bootstrap/js/bootstrap.min.js" | absURL }}"></script>
+{{ "<!-- wow js -->" | safeHTML }}
+<script type="text/javascript" src="{{ "plugins/wow-js/wow.min.js" | absURL }}"></script>
+{{ "<!-- slider js -->" | safeHTML }}
+<script type="text/javascript" src="{{ "plugins/slider/slider.js" | absURL }}"></script>
+{{ "<!-- Fancybox -->" | safeHTML }}
+<script type="text/javascript" src="{{ "plugins/facncybox/jquery.fancybox.js" | absURL }}"></script>
+{{ "<!-- template main js -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script type="text/javascript" src="{{ $script.Permalink }}"></script>
+{{ "<!-- google analitycs -->" | safeHTML }}
+<script type="text/javascript" src="{{ "plugins/waypoints/jquery.waypoints.min.js" | absURL }}"></script>
