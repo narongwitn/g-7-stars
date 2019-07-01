@@ -2,11 +2,11 @@ banner :
   title : DISCOVER YOUR DREAM...
   license : 
     name : TAT Travel licence
-    number : 'No. 11/0382'
+    number : 'No. 11/03820'
 
 polaroid : 
   bgImage : images/aus.jpg #DATA
-  name : GOLDEN SEVEN STAR TOUR
+  name : GOLDEN SEVEN STARS TOUR
   title : ผู้นำด้านการท่องเที่ยวด้วยมาตรฐานการบริการที่ดีครบวงจร
   subtitle : มุ่งเน้นการดูแลลูกค้าทุกระดับอย่างมีคุณภาพ พร้อมให้คำปรึกษาได้อย่างรวดเร็วและตอบโจทย์ทุกความต้องการ
   frame : images/polaroid.png
@@ -36,7 +36,7 @@ reason :
     - title : 1. well-organized
       description : พนักงานของบริษัท มีการจัดการที่เป็นระบบและให้ความสำคัญในรายละเอียดปลีกย่อย ทุกเรื่อง ความรวดเร็วในการให้บริการ
     - title : 2. friendly and easygoing
-      description : การบริการของมัคคุเทศก์ จริงใจและเป็นกันเอง พร้อมที่จะสร้างความประทับใจกับการ เดินทางให้ทุกท่านเมื่อเลือกใช้บริการ
+      description : การบริการของมัคคุเทศก์ จริงใจและเป็นกันเอง พร้อมที่จะสร้างความประทับใจกับการเดินทางให้ทุกท่านเมื่อเลือกใช้บริการ
     - title : 3. unforgettable memories
       description : การสร้างความประทับใจ ในการเดินทาง ไม่ว่าจะเป็นโปรแกรม, สถานที่ท่องเที่ยว, อาหาร, ยานพาหนะเดินทาง,โรงแรมที่พัก, อุปกรณ์ต่างๆ โดยทีมงานที่มีประสบการณ์
     - title : 4. pay attention to all the details

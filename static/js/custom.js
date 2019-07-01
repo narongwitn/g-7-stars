@@ -79,7 +79,7 @@
         pagination: '.swiper-pagination',
         paginationClickable: true,
         speed:1000,
-        autoplay:2000
+        autoplay:7000
     });
     var contentSlider = new Swiper('#inner-conent-slider', {
         paginationClickable: true,
@@ -88,7 +88,7 @@
         fade: {
           crossFade: true
         },
-        autoplay:4000
+        autoplay:9000
     });
         var slider = new Swiper('#hero', {
         pagination: '.swiper-pagination',
