@@ -9,7 +9,7 @@
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
             <i class="pg-close fs-14"></i>
           </button>
-          <h5>Training, Seminar</h5>
+          <h5>{{ .modalTitle }}</h5>
         </div>
         <div class="modal-body">
           <!-- BEGIN JUMBOTRON -->
@@ -20,7 +20,7 @@
                   <div class="container">
                     <div class="col-sm-6 col-sm-offset-3 sm-m-t-30 sm-p-t-20 sm-p-b-20">
                       <h1 class="light text-center text-white xs-p-t-30 sm-p-b-30">
-                        รับจัดอบรม ประชุมสัมมนา
+                        {{ .bannerTitle }}
                       </h1>
                       <p class="text-white m-t-20"> {{ .description }}
                       </p>
@@ -36,7 +36,7 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
-                  <p class="m-t-20"> พนักงานหรือนักการขายจะได้รับความรู้หรือข้อมูลใหม่ๆควบคู่ไปกับการท่องเที่ยว ซึ่งจะสร้างความประทับใจไม่น่าเบื่อ และเป็นกลไกสำคัญ ที่จะทำให้เกิดความเชื่อมั่น ภูมิใจในสินค้าและหน้าที่รับผิดชอบของตนอันจะเป็นผลต่อเนื่องมาถึงภาพลักษณ์ที่ดีของบริษัทด้วยรวมถึงบริการจัดการหาพิธีกร พริตตี้ นักแสดง งานต่างๆ โดยขึ้นอยู่กับรูปแบบความเหมาะสมของงานเป็นสำคัญ
+                  <p class="m-t-20"> {{ .footer }}
                   </p>
                 </div>
               </div>
