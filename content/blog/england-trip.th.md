@@ -12,8 +12,8 @@ tags: ["Travel", "Aboard"]
 
 ---
 
-![England](https://g-7-stars-tour.firebaseapp.com//images/blog/englang_trip_00001.jpg#center)
-![England](https://g-7-stars-tour.firebaseapp.com//images/blog/englang_trip_00002.jpg#center)
-![England](https://g-7-stars-tour.firebaseapp.com//images/blog/englang_trip_00003.jpg#center)
-![England](https://g-7-stars-tour.firebaseapp.com//images/blog/englang_trip_00004.jpg#center)
-![England](https://g-7-stars-tour.firebaseapp.com//images/blog/englang_trip_00005.jpg#center)
+![England](https://g-7-stars-tour.firebaseapp.com/images/blog/englang_trip_00001.jpg#center)
+![England](https://g-7-stars-tour.firebaseapp.com/images/blog/englang_trip_00002.jpg#center)
+![England](https://g-7-stars-tour.firebaseapp.com/images/blog/englang_trip_00003.jpg#center)
+![England](https://g-7-stars-tour.firebaseapp.com/images/blog/englang_trip_00004.jpg#center)
+![England](https://g-7-stars-tour.firebaseapp.com/images/blog/englang_trip_00005.jpg#center)
