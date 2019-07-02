@@ -1,3 +1,3 @@
 # g-7-stars
 
-line 1
+deploy successful
