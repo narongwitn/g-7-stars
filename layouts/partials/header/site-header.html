@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}th-th{{ end }}">
 <head>
-    
+  {{ partial "head/global-site-tag.html" . }}
   {{ partial "head/metadata.html" . }}
 
   <title>{{ .Title }}</title>
