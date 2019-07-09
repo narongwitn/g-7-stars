@@ -1,7 +1,7 @@
 ---
 title: "Italy"
 date: 2019-06-24T17:21:13+07:00
-draft: true
+draft: false
 type: post
 image: images/blog/Cover l Italy 2.jpg
 author: Worananya
