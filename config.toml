@@ -1,4 +1,4 @@
-baseURL = "http://g7stars.com"
+baseURL = "https://g7stars.com"
 languageCode = "th-TH"
 title = "โกล์เด็นเซเว่นสตาร์สทัวร์"
 description = "DISCOVER YOUR DREAM"
@@ -121,5 +121,3 @@ contactInfo = "Tel: +90 000 333 22"
 
 [[Params.footer.contacts]]
 contactInfo = "Mail: exmaple@ymail.com"
-
-
