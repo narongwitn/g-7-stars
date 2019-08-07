@@ -1,6 +1,0 @@
-[submodule "g7-public"]
-	path = g7-public
-	url = https://github.com/narongwitn/g7-public.git
-[submodule "public"]
-	path = public
-	url = https://github.com/narongwitn/g7-public.git
